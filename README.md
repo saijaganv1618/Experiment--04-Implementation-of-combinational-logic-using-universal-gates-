@@ -67,11 +67,8 @@ NAND GATE PROGRAM:
 module un1(a,b,c,d,f);
 input a,b,c,d;
 output f;
-assign  f=((~(~c&b&a))&(~(~d&c&a))&(~(c&(~b)&a)));
+assign  f=((~(~c&b&a))&(~(~d&c&a))&(~(c&(~b)&a))); 
 endmodule
-
-
-
 */
 
 ## Output:
